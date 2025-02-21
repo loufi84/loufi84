@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @loufi84
-- 👀 I’m interested in mobile applications adn computer engineering in general. I like to optimize softwares and would like to participate in OSS.
+- 👋 Hi, I’m Quentin @loufi84.
+- 👀 I’m interested in mobile applications and computer engineering in general. I like to optimize softwares and would like to participate in OSS.
 - 🌱 I’m currently learning Shell and C.
 - 💞️ I’m looking to collaborate on Open Source projects.
 - 📫 How to reach me : www.linkedin.com/in/quentin-lataste-b5a359193
