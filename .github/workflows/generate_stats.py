@@ -1,6 +1,7 @@
 import os
 import requests
 import matplotlib.pyplot as plt
+import re
 
 # Récupération du token GitHub
 GH_TOKEN = os.getenv("GH_TOKEN")
