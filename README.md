@@ -4,7 +4,7 @@ I'm interested in computer engineering in general with a focus on Cyber Security
 I have a particular interest for Open Source development.
 I am currently learning Software Engineering at Holberton School in Dijon.
 
-# 🖥️ I know the bases of :
+# 🖥️ I know the bases of
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-89E051?style=flat&logo=gnubash&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
