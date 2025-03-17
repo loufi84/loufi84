@@ -5,7 +5,8 @@ on:
     - cron: "5 * * * *"  # Exécute le script chaque jour à minuit UTC
   push:
     branches:
-      - main  # Corrigé : espace après le "-"
+      - main
+  workflow_dispatch:
 
 jobs:
   generate-stats:
