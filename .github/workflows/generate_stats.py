@@ -60,12 +60,15 @@ plt.savefig("languages.png")
 with open("README.md", "r") as file:
     readme = file.read()
 
+# Suppression de la section
+readme = re.sub(r"### Languages used.*?<!-- LANGUAGES -->", "<!-- LANGUAGES -->", readme, flags=re.DOTALL)
+
 # Ajoute les stats de langage et l'image
-lang_summary = "\n".join([f"- **{lang}**: {lines} lignes" for lang, lines in lang_stats])
-readme = readme.replace(
-    "<!-- LANGUAGES -->",
-    f"### Languages used\n\n![Langages utilisés](languages.png)\n\n{lang_summary}\n<!-- LANGUAGES -->"
-)
+lang_summary = "\n".join([f"- **{lang}**: {lines} lines" for lang, lines in lang_stats])
+new_content = f"### Languages used\n\n![Languages used](languages.png)\n\n{lang_summary}\n<!-- LANGUAGES -->"
+
+# Insère le contenu
+readme = readme.replace("<!-- LANGUAGES -->", new_content)
 
 # Sauvegarde du README mis à jour
 with open("README.md", "w") as file:
