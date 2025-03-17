@@ -24,7 +24,10 @@ I am currently learning Software Engineering at Holberton School in Dijon.
 
 # My Stats
 [![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=loufi84&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=loufi84&layout=compact)
+
+# Most used languages
+Here are some of the languages I used recently:
+<!-- LANGUAGES -->
 <!---
 loufi84/loufi84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
