@@ -28,7 +28,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          python generate_stats.py
+          python .github/workflows/generate_stats.py
 
       - name: Commit and push changes to README
         run: |
