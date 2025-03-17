@@ -1,47 +1,74 @@
 import os
 import requests
+import matplotlib.pyplot as plt
 
-# Récupération du token
+# Récupération du token GitHub
 GH_TOKEN = os.getenv("GH_TOKEN")
+if not GH_TOKEN:
+    print("Erreur : GH_TOKEN n'est pas défini.")
+    exit(1)
 
-# API GitHub de récupération des langages
-url = "https://api.github.com/users/loufi84/repos?type=all&per_page=100"
+# API GitHub pour récupérer les repos
+url = "https://api.github.com/user/repos?type=owner&per_page=100"
 
-# Requête de récupération des données
+# Headers pour l'authentification
 headers = {
-  "Authorization": f"token{GH_TOKEN}"
+    "Authorization": f"token {GH_TOKEN}",
+    "Accept": "application/vnd.github.v3+json"
 }
+
 response = requests.get(url, headers=headers)
 
-if response.status_code == 200:
-  repos = response.json()
+if response.status_code != 200:
+    print(f"Erreur API GitHub : {response.status_code} - {response.text}")
+    exit(1)
 
-  # Extrait les langages
-  languages = {}
-  for repo in repos:
+repos = response.json()
+
+# Dictionnaire des langages
+languages = {}
+
+# Parcours des repos pour récupérer les langages
+for repo in repos:
     repo_name = repo['name']
-    repo_languages_url = f"https://api.github.com/repos/loufi84/{repo_name}/languages"
-    languages_response = requests.get(repo_languages_url, headers=header)
+    lang_url = f"https://api.github.com/repos/loufi84/{repo_name}/languages"
+    
+    lang_response = requests.get(lang_url, headers=headers)
+    if lang_response.status_code == 200:
+        repo_languages = lang_response.json()
+        for lang, lines in repo_languages.items():
+            languages[lang] = languages.get(lang, 0) + lines
 
-    if languages_response.status_code == 200:
-      repo_languages = languages_response.json()
-      for lang, lines in repo_languages.items():
-        languages[lang] = languages.get(lang, 0) + lines
+# Trier les langages par utilisation
+lang_stats = sorted(languages.items(), key=lambda x: x[1], reverse=True)
 
-    # Génère un graphique des langages utilisés
-    lang_stats = sorted(languages.items(), key=lambda x: x[1], reverse=True)
-    lang_summary = "\n".join([f"{lang}: {lines}" for lang, lines in lang_stats])
+# Vérifier qu'il y a des données
+if not lang_stats:
+    print("Aucun langage détecté.")
+    exit(1)
 
-    # Mise à jour du README
-    with open("README.md", "w") as file:
-      readme = file.read()
+# Générer un graphique
+langs, values = zip(*lang_stats)
+plt.figure(figsize=(8, 6))
+plt.pie(values, labels=langs, autopct="%1.1f%%", colors=plt.cm.Paired.colors)
+plt.title("Répartition des langages utilisés")
 
-    # Ajoute les stats de langage
-    readme = readme.replace("<!-- LANGUAGES -->", f"### Langages utilisés\n{lang_summary}\n<!-- LANGUAGES -->")
+# Sauvegarde du graphique
+plt.savefig("languages.png")
 
-    # Sauvegarde du fichier modifié
-    with open("README.md", "w") as file:
-      file.write(readme)
+# Mise à jour du README.md
+with open("README.md", "r") as file:
+    readme = file.read()
 
-else:
-  print("Erreur lors de la récupération des données depuis GitHub")
+# Ajoute les stats de langage et l'image
+lang_summary = "\n".join([f"- **{lang}**: {lines} lignes" for lang, lines in lang_stats])
+readme = readme.replace(
+    "<!-- LANGUAGES -->",
+    f"### Langages utilisés\n\n![Langages utilisés](languages.png)\n\n{lang_summary}\n<!-- LANGUAGES -->"
+)
+
+# Sauvegarde du README mis à jour
+with open("README.md", "w") as file:
+    file.write(readme)
+
+print("Mise à jour du README.md terminée.")
