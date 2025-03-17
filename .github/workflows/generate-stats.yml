@@ -2,37 +2,38 @@ name: Update Github Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Exécute le script chaque jour à minuit UTC
   push:
     branches:
-      -main
+      - main  # Corrigé : espace après le "-"
 
 jobs:
   generate-stats:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout code
+      - name: Checkout code
         uses: actions/checkout@v2
 
-      -name: Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
 
-      -name: Install required packages
+      - name: Install required packages
         run: |
-          pip install requests
+          pip install requests matplotlib
 
-      -name: Generate GitHub Stats
+      - name: Generate GitHub Stats
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           python generate_stats.py
 
-      -name: Commit and push changes to README
+      - name: Commit and push changes to README
         run: |
           git config --global user.email "quentin.lataste@gmail.com"
           git config --global user.name "loufi84"
-          git add README.md
-          git commit -m "Update README with latest GitHub stats"
+          git pull origin main  # Évite les conflits
+          git add README.md languages.png
+          git commit -m "Mise à jour automatique du README avec les statistiques des langages"
           git push
