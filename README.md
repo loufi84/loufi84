@@ -27,6 +27,16 @@ I am currently learning Software Engineering at Holberton School in Dijon.
 
 # Most used languages
 Here are some of the languages I used recently:
+### Languages used
+
+![Languages used](languages.png)
+
+- **C**: 76336 lines
+- **Kotlin**: 12881 lines
+- **C#**: 5583 lines
+- **Shell**: 3466 lines
+- **Assembly**: 599 lines
+- **Python**: 61 lines
 <!-- LANGUAGES -->
 <!---
 loufi84/loufi84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
