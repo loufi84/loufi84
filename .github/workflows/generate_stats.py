@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Récupération du token GitHub
 GH_TOKEN = os.getenv("GH_TOKEN")
 if not GH_TOKEN:
-    print("Erreur : GH_TOKEN n'est pas défini.")
+    print("Erreur : GH_TOKEN not defined.")
     exit(1)
 
 # API GitHub pour récupérer les repos
@@ -20,7 +20,7 @@ headers = {
 response = requests.get(url, headers=headers)
 
 if response.status_code != 200:
-    print(f"Erreur API GitHub : {response.status_code} - {response.text}")
+    print(f"GitHub API's error : {response.status_code} - {response.text}")
     exit(1)
 
 repos = response.json()
@@ -44,14 +44,14 @@ lang_stats = sorted(languages.items(), key=lambda x: x[1], reverse=True)
 
 # Vérifier qu'il y a des données
 if not lang_stats:
-    print("Aucun langage détecté.")
+    print("No language detected.")
     exit(1)
 
 # Générer un graphique
 langs, values = zip(*lang_stats)
 plt.figure(figsize=(8, 6))
 plt.pie(values, labels=langs, autopct="%1.1f%%", colors=plt.cm.Paired.colors)
-plt.title("Répartition des langages utilisés")
+plt.title("Most used languages")
 
 # Sauvegarde du graphique
 plt.savefig("languages.png")
@@ -64,11 +64,11 @@ with open("README.md", "r") as file:
 lang_summary = "\n".join([f"- **{lang}**: {lines} lignes" for lang, lines in lang_stats])
 readme = readme.replace(
     "<!-- LANGUAGES -->",
-    f"### Langages utilisés\n\n![Langages utilisés](languages.png)\n\n{lang_summary}\n<!-- LANGUAGES -->"
+    f"### Languages used\n\n![Langages utilisés](languages.png)\n\n{lang_summary}\n<!-- LANGUAGES -->"
 )
 
 # Sauvegarde du README mis à jour
 with open("README.md", "w") as file:
     file.write(readme)
 
-print("Mise à jour du README.md terminée.")
+print("README.md update complete.")
