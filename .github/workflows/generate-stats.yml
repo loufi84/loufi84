@@ -2,7 +2,7 @@ name: Update Github Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Exécute le script chaque jour à minuit UTC
+    - cron: "5 * * * *"  # Exécute le script chaque jour à minuit UTC
   push:
     branches:
       - main  # Corrigé : espace après le "-"
