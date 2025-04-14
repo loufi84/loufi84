@@ -31,7 +31,7 @@ Here are some of the languages I used recently:
 
 ![Languages used](languages.png)
 
-- **C**: 147430 lines
+- **C**: 150707 lines
 - **Kotlin**: 25966 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
