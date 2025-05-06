@@ -33,10 +33,11 @@ Here are some of the languages I used recently:
 
 - **C**: 168065 lines
 - **Kotlin**: 33993 lines
+- **Python**: 13317 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
+- **HTML**: 951 lines
 - **Assembly**: 599 lines
-- **Python**: 61 lines
 <!-- LANGUAGES -->
 <!---
 loufi84/loufi84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
