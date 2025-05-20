@@ -32,8 +32,8 @@ Here are some of the languages I used recently:
 ![Languages used](languages.png)
 
 - **C**: 168065 lines
+- **Python**: 78399 lines
 - **Kotlin**: 33993 lines
-- **Python**: 33825 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
 - **HTML**: 951 lines
