@@ -26,7 +26,7 @@ I am currently learning Software Engineering at Holberton School in Dijon.
 [![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=loufi84&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 # Most used languages
-Here are some of the languages I used recently:
+Here are the languages I used:
 ### Languages used
 
 ![Languages used](languages.png)
