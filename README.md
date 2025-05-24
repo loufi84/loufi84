@@ -32,7 +32,7 @@ Here are the languages I used:
 ![Languages used](languages.png)
 
 - **C**: 168065 lines
-- **Python**: 78399 lines
+- **Python**: 82908 lines
 - **Kotlin**: 33993 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
