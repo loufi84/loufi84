@@ -34,6 +34,7 @@ Here are the languages I used:
 - **C**: 168065 lines
 - **Python**: 82908 lines
 - **Kotlin**: 33993 lines
+- **Java**: 8685 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
 - **HTML**: 951 lines
