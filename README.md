@@ -17,7 +17,7 @@ I am currently learning Software Engineering at Holberton School in Dijon.
 
 
 # 📬 How to reach me
-<a href="https://www.linkedin.com/in/quentin-lataste-b5a359193/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/quentin-lataste-b5a359193/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" />Linkedin</a>
 
 <h1>📚 My blog posts</h1>
 <a href="https://medium.com/@quentin.lataste" target="blank"><p>Some articles here</p></a>
