@@ -17,9 +17,9 @@ I am currently learning Software Engineering at Holberton School in Dijon.
 
 # 🚀 My projects
 For Holberton School I made those interesting projects :
-- <a href="https://github.com/loufi84/holbertonschool-printf" target="blank"><p><strong>printf:</strong></a> A simple implementation of a printf function in C</p>
-- <a href="https://github.com/loufi84/holbertonschool-simple_shell" target="blank"><p><strong>Simple Shell:</strong></a> A simple Unix-style Shell containing basic builtins and calls to OS functions</p>
-- <a href="https://github.com/loufi84/holbertonschool-hbnb" target="blank"><p><strong>HBnB Evolution:</strong></a> A basic clone of AirBnB, used to understand diagrams, back-end, front-end and database management</p>
+- <a href="https://github.com/loufi84/holbertonschool-printf" target="blank"><p><strong>printf:</a></strong> A simple implementation of a printf function in C</p>
+- <a href="https://github.com/loufi84/holbertonschool-simple_shell" target="blank"><p><strong>Simple Shell:</a></strong> A simple Unix-style Shell containing basic builtins and calls to OS functions</p>
+- <a href="https://github.com/loufi84/holbertonschool-hbnb" target="blank"><p><strong>HBnB Evolution:</a></strong> A basic clone of AirBnB, used to understand diagrams, back-end, front-end and database management</p>
 Find all my projects <a href="https://github.com/loufi84?tab=repositories" target="blank">here</a>
 
 
