@@ -22,6 +22,14 @@ For Holberton School I made those interesting projects :
 - <a href="https://github.com/loufi84/holbertonschool-hbnb" target="blank"><strong>HBnB Evolution:</a></strong> A basic clone of AirBnB, used to understand diagrams, back-end, front-end and database management
 Find all my projects <a href="https://github.com/loufi84?tab=repositories" target="blank">here</a>
 
+# 🏅 My certifications
+During my scholarship, I obtained the following IBM certifications :
+- Introduction to Open Source
+- AGILE development
+- SQL and relational databases
+- Project management fundamentals
+
+You can see thoses certificates <a href="https://github.com/loufi84/holbertonschool-france-certificates-ibm" target="blank">here</a>
 
 # 📬 How to reach me
 <a href="https://www.linkedin.com/in/quentin-lataste-b5a359193/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" />Linkedin</a>
