@@ -15,6 +15,13 @@ I am currently learning Software Engineering at Holberton School in Dijon.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
+# 🚀 My projects
+For Holberton School I made those interesting projects :
+- <a href="https://github.com/loufi84/holbertonschool-printf" target="blank"><p><strong>printf:</strong> A simple implementation of a printf function in C</p></a>
+- <a href="https://github.com/loufi84/holbertonschool-simple_shell" target="blank"><p><strong>Simple Shell:</strong> A simple Unix-style Shell containing basic builtins and calls to OS functions</p></a>
+- <a href="https://github.com/loufi84/holbertonschool-hbnb" target="blank"><p><strong>HBnB Evolution:</strong> A basic clone of AirBnB, used to understand diagrams, back-end, front-end and database management</p></a>
+Find all my projects <a href="https://github.com/loufi84?tab=repositories" target="blank">here</a>
+
 
 # 📬 How to reach me
 <a href="https://www.linkedin.com/in/quentin-lataste-b5a359193/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" />Linkedin</a>
