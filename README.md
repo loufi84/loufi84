@@ -47,7 +47,7 @@ Here are the languages I used:
 ![Languages used](languages.png)
 
 - **C**: 168065 lines
-- **Python**: 112685 lines
+- **Python**: 116300 lines
 - **Kotlin**: 37885 lines
 - **Java**: 10119 lines
 - **C#**: 5583 lines
