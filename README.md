@@ -46,8 +46,8 @@ Here are the languages I used:
 
 ![Languages used](languages.png)
 
+- **Python**: 215105 lines
 - **C**: 168065 lines
-- **Python**: 163815 lines
 - **Kotlin**: 42817 lines
 - **Java**: 10119 lines
 - **HTML**: 5765 lines
