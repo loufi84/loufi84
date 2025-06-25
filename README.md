@@ -46,10 +46,10 @@ Here are the languages I used:
 
 ![Languages used](languages.png)
 
-- **Python**: 219882 lines
+- **Python**: 227837 lines
 - **C**: 168065 lines
-- **Kotlin**: 42817 lines
-- **Java**: 10119 lines
+- **Kotlin**: 39811 lines
+- **Java**: 15756 lines
 - **HTML**: 5765 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
