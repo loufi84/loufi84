@@ -52,7 +52,7 @@ Here are the languages I used:
 - **C**: 168065 lines
 - **JavaScript**: 79657 lines
 - **Kotlin**: 39811 lines
-- **Java**: 21812 lines
+- **Java**: 30334 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
 - **Assembly**: 599 lines
