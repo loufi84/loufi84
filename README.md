@@ -50,7 +50,7 @@ Here are the languages I used:
 - **HTML**: 285055 lines
 - **CSS**: 193407 lines
 - **C**: 168065 lines
-- **JavaScript**: 83727 lines
+- **JavaScript**: 89507 lines
 - **Kotlin**: 78928 lines
 - **Java**: 35102 lines
 - **C#**: 5583 lines
