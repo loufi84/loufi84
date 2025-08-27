@@ -21,7 +21,7 @@ For Holberton School I made those interesting projects :
 - <a href="https://github.com/loufi84/holbertonschool-simple_shell" target="blank"><strong>Simple Shell:</a></strong> A simple Unix-style Shell containing basic builtins and calls to OS functions
 - <a href="https://github.com/loufi84/holbertonschool-hbnb" target="blank"><strong>HBnB Evolution:</a></strong> A basic clone of AirBnB, used to understand diagrams, back-end, front-end and database management
 Find all my projects <a href="https://github.com/loufi84?tab=repositories" target="blank">here</a>
-- <a href="https://github.com/Proser-V/portfolio-project" target="blank"<strong>L'atelier local:</a></strong> A web application to connect local artisans to possible clients with <a href="https://github.com/Proser-V">Valentin Dumont</a>
+- <a href="https://github.com/Proser-V/portfolio-project" target="blank"><strong>L'atelier local:</a></strong> A web application to connect local artisans to potential clients with <a href="https://github.com/Proser-V">Valentin Dumont</a>
 
 # 🏅 My certifications
 During my scholarship, I obtained the following IBM certifications :
