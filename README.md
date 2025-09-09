@@ -47,15 +47,17 @@ Here are the languages I used:
 
 ![Languages used](languages.png)
 
-- **Python**: 494049 lines
+- **Python**: 495311 lines
 - **HTML**: 285055 lines
 - **CSS**: 193407 lines
 - **C**: 168065 lines
-- **JavaScript**: 104768 lines
+- **JavaScript**: 106072 lines
 - **Kotlin**: 85517 lines
 - **Java**: 41337 lines
+- **TypeScript**: 7619 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
+- **Dockerfile**: 2527 lines
 - **Assembly**: 599 lines
 <!-- LANGUAGES -->
 <!---
