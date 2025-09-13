@@ -52,8 +52,8 @@ Here are the languages I used:
 - **CSS**: 193407 lines
 - **C**: 168065 lines
 - **JavaScript**: 106072 lines
-- **Kotlin**: 85517 lines
-- **Java**: 41337 lines
+- **Kotlin**: 85487 lines
+- **Java**: 41506 lines
 - **TypeScript**: 7619 lines
 - **C#**: 5583 lines
 - **Shell**: 3466 lines
