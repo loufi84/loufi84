@@ -56,7 +56,7 @@ Here are the languages I used:
 - **Java**: 41506 lines
 - **TypeScript**: 7619 lines
 - **C#**: 5583 lines
-- **Shell**: 3466 lines
+- **Shell**: 4759 lines
 - **Dockerfile**: 2527 lines
 - **Assembly**: 599 lines
 <!-- LANGUAGES -->
