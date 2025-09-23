@@ -47,11 +47,11 @@ Here are the languages I used:
 
 ![Languages used](languages.png)
 
-- **Python**: 495311 lines
+- **Python**: 499281 lines
 - **HTML**: 285055 lines
 - **CSS**: 193407 lines
-- **C**: 168065 lines
-- **JavaScript**: 106072 lines
+- **C**: 172731 lines
+- **JavaScript**: 106744 lines
 - **Kotlin**: 85487 lines
 - **Java**: 41506 lines
 - **TypeScript**: 7619 lines
@@ -59,6 +59,7 @@ Here are the languages I used:
 - **Shell**: 4759 lines
 - **Dockerfile**: 2527 lines
 - **Assembly**: 599 lines
+- **Ruby**: 365 lines
 <!-- LANGUAGES -->
 <!---
 loufi84/loufi84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
