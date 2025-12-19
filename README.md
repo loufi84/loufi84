@@ -47,7 +47,7 @@ Here are the languages I used:
 
 ![Languages used](languages.png)
 
-- **Python**: 563951 lines
+- **Python**: 628756 lines
 - **HTML**: 285055 lines
 - **CSS**: 193407 lines
 - **C**: 172731 lines
