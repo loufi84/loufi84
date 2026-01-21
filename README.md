@@ -1,8 +1,8 @@
 <img align="center" alt="Coding Cat" width="1000" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWg5c3ZpZXRxaWF0dHBydDkweWMycDU5ZDd1cGkycG1wbWF2aTV0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FcqKy4Kj7XOK0hCW4g/giphy.gif">
 Hi there 👋 my name's Quentin or @loufi84. I'm from Dijon, France.
-I'm interested in computer engineering in general with a focus on Cyber Security (which is really new to me). I also like Web and mobile applications.
+I'm interested in computer engineering in general with a focus on Machine Learning (which is really new to me). I also like Web and mobile applications.
 I have a particular interest for Open Source development.
-I am currently learning Software Engineering at Holberton School in Dijon.
+I am currently learning Software Engineering at Holberton School in Dijon and looking for an internship or a job in the field!
 
 # 🖥️ I know the bases of
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white)
