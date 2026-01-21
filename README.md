@@ -42,5 +42,5 @@ You can see thoses certificates <a href="https://github.com/loufi84/holbertonsch
 [![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=loufi84&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Most used languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=loufi84&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=loufi84&layout=compact_icons=true&theme=tokyonight)
 
