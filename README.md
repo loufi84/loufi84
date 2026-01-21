@@ -41,27 +41,6 @@ You can see thoses certificates <a href="https://github.com/loufi84/holbertonsch
 # My Stats
 [![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=loufi84&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
-# Most used languages
-Here are the languages I used:
-### Languages used
+## Most used languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=loufi84&layout=compact)
 
-![Languages used](languages.png)
-
-- **Python**: 719635 lines
-- **HTML**: 285055 lines
-- **CSS**: 193407 lines
-- **C**: 172731 lines
-- **JavaScript**: 106744 lines
-- **Kotlin**: 93284 lines
-- **Java**: 41506 lines
-- **TypeScript**: 7619 lines
-- **C#**: 5583 lines
-- **Shell**: 4759 lines
-- **Dockerfile**: 2527 lines
-- **Assembly**: 599 lines
-- **Ruby**: 365 lines
-<!-- LANGUAGES -->
-<!---
-loufi84/loufi84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
